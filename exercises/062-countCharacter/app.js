@@ -1,5 +1,11 @@
 function countCharacter(str, char) {
-    // your code here
+    let count = 0; 
+    // Recorrer cada carácter del string 
+    
+    for (let i = 0; i < str.length; i++) { 
+        // Comparar el carácter actual con el carácter dado 
+        if (str[i] === char) { count++; 
+            // Incrementar el contador si hay coincidencia } } // Retornar el número de repeticiones return
     
 }
 

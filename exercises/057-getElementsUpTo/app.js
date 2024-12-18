@@ -1,5 +1,8 @@
 function getElementsUpTo(array, n) {
-  // your code here
+  let nuevoArray = array.slice(0,3);
+
+  return nuevoArray;
+  
   
 }
 

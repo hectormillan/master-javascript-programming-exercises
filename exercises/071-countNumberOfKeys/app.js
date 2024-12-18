@@ -9,6 +9,12 @@ let obj = {
 
 function countNumberOfKeys(obj) {
     // your code here
+    let cantidadTotal = 0;
+
+    for (const key in obj) {
+        cantidadTotal ++;
+    }
+    return cantidadTotal;
    
 }
 
